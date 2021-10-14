@@ -1,0 +1,156 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2/11/2018, 02:24:40 PM
+    Author     : sa1ntiagovelasco
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #E9EBEE;
+}
+
+.conetenedor{
+    width: 100%;
+    background: #E9EBEE;
+}
+
+
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    background: #3b5998;
+    padding: 1em 4em;
+    z-index: 100;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
+}
+
+header h2{
+    color: #fff;
+    font-weight: 300;
+}
+
+.banner{
+    width: 100%;
+    width: 100%;
+    height: calc(100vh - 120px);
+    margin-top: 70px;
+    background: #E9EBEE;
+    padding: 1em;
+    position: relative;
+}
+
+.capa{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.texto{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+.texto p{
+    width: 80%;
+    font-size: 2em;
+    font-weight: 300;
+    color: #273B65;
+    padding: 1em 0;
+}
+
+.login{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login form{
+    width: 80%;
+    background: #E9EBEE;
+    padding: 2em 1em 1em;
+    border-radius: 10px;
+}
+
+.login form table{
+    width: 100%;
+    border: 0px;
+    border-collapse: collapse;
+}
+
+.login form table td{
+    padding: .7em;
+}
+
+.login form table .gris{
+    text-align: center;
+}
+
+.login form table .espacio{
+}
+
+.login form table td input{
+    width: 100%;
+    padding: 1em;
+    border:1px solid rgba(0,0,0,0.1);
+    outline-color: transparent;
+    border-radius: 10px;
+}
+
+.login form table td .campo{
+    height: 55px;
+    background: #fafafa;
+    font-size: 1.1em;
+}
+
+.login form table h2{
+    font-size: 1.8em;
+    text-align: center;
+    color: #273B65;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    padding-bottom: .5em;
+}
+
+.login form table .boton{
+    background: #079272;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+footer{
+    width: 100%;
+    height: 70px;
+    background: #D2D6DE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2em;
+    position: fixed;
+    bottom: 0px;
+    color: #273B65;
+  
+}
+

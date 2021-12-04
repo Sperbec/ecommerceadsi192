@@ -1,0 +1,27 @@
+body{
+    margin:0px;
+    background-color: #f6f6f6;
+}
+
+.box{
+    background-color: #fff;
+    border: 1px solid #d6d6d6;
+    width: 500px;
+    border-radius: 8px;
+    padding: 16px;
+    position: absolute;
+   
+}
+
+.mtop16{
+    margin-top: 16px;
+}
+
+.btn-success{
+    width: 100%;
+}
+
+.box_login{
+    left: calc(50% - 250px);
+    top: calc(50% - 121px);
+}

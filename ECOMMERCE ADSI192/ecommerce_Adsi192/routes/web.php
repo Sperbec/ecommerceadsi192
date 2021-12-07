@@ -21,5 +21,12 @@ Route::get('/', function () {
 //Rutas para autenticación
 //Get es cuando se realiza una petición a traves de un navegador 
 //Se pone @ y la función a la que debe ir 
-Route::get('/login', [LoginController::class, 'getLogin']);
+Route::get('/login', [LoginController::class, 'getLogin'])->name('login');
+
+
+Route::get('/register', [LoginController::class, 'getRegister'])->name('register');
+Route::post('/register', [LoginController::class, 'postRegister'])->name('register');
+
+
+Route::get('/recover', [LoginController::class, 'getRecover'])->name('recover');
 

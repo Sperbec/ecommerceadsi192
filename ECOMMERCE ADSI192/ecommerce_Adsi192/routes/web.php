@@ -30,3 +30,6 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+// New added Routes
+
+Route::get('/principal', [App\Http\Controllers\RoutingController::class, 'principal'])->name('principal');

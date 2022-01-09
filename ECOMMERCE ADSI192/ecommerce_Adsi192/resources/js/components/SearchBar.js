@@ -5,7 +5,6 @@ function SearchBar() {
     return (
         <div className="form-outline">
             <input type="search" id="form1" className="form-control" placeholder="Buscar" aria-label="Search"/>
-            <script src="{{ asset('js/app.js') }}"/>
         </div>
     );
 }

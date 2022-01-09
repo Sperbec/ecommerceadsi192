@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-function Slide() {
+function Slide(){
     return (
         <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-indicators">
@@ -33,7 +33,6 @@ function Slide() {
                 <span className="carousel-control-next-icon" aria-hidden="true" />
                 <span className="visually-hidden">Next</span>
             </button>
-            <script src="{{ asset('js/app.js') }}"/>
         </div>
     );
 }

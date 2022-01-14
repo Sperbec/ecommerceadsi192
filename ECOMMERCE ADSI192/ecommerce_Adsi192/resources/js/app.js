@@ -12,8 +12,10 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+require('./components/HomeContent');
 require('./components/Example');
 require('./components/SearchBar');
 require('./components/Slide');
 require('./components/Card');
 require('./components/CardGroup');
+require('./components/BasicSection');

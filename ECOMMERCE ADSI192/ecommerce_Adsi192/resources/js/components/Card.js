@@ -3,9 +3,11 @@ import ReactDOM from "react-dom";
 
 function Card(props){
     return (
-        <div className="card col-md-3">
-            <img src={props.url} className="card-img" alt="Not loading" />
-        </div>
+        <>
+            <div className="card col-md-4">
+                <img src={props.url} className="card-img" alt="Not loading" />
+            </div>
+        </>
     );
 }
 

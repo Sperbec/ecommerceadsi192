@@ -3,9 +3,11 @@ import ReactDOM from "react-dom";
 
 function SearchBar() {
     return (
-        <div className="form-outline">
-            <input type="search" id="form1" className="form-control" placeholder="Buscar" aria-label="Search"/>
-        </div>
+        <>
+            <div className="form-outline">
+                <input type="search" id="form1" className="form-control" placeholder="Buscar" aria-label="Search"/>
+            </div>
+        </>
     );
 }
 

@@ -14,7 +14,6 @@ require('./bootstrap');
 
 require('./components/HomeContent');
 require('./components/Example');
-require('./components/SearchBar');
 require('./components/Slide');
 require('./components/Card');
 require('./components/CardGroup');

@@ -5255,8 +5255,6 @@ __webpack_require__(/*! ./components/HomeContent */ "./resources/js/components/H
 
 __webpack_require__(/*! ./components/Example */ "./resources/js/components/Example.js");
 
-__webpack_require__(/*! ./components/SearchBar */ "./resources/js/components/SearchBar.js");
-
 __webpack_require__(/*! ./components/Slide */ "./resources/js/components/Slide.js");
 
 __webpack_require__(/*! ./components/Card */ "./resources/js/components/Card.js");
@@ -5528,48 +5526,6 @@ function HomeContent() {
 
 if (document.getElementById('home-content')) {
   react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(HomeContent, {}), document.getElementById('home-content'));
-}
-
-/***/ }),
-
-/***/ "./resources/js/components/SearchBar.js":
-/*!**********************************************!*\
-  !*** ./resources/js/components/SearchBar.js ***!
-  \**********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-
-
-
-
-
-function SearchBar() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.Fragment, {
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-      className: "form-outline",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("input", {
-        type: "search",
-        id: "form1",
-        className: "form-control",
-        placeholder: "Buscar",
-        "aria-label": "Search"
-      })
-    })
-  });
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SearchBar);
-
-if (document.getElementById('search-bar')) {
-  react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(SearchBar, {}), document.getElementById('search-bar'));
 }
 
 /***/ }),

@@ -18,3 +18,4 @@ require('./components/Slide');
 require('./components/Card');
 require('./components/CardGroup');
 require('./components/BasicSection');
+require('./components/CollapsedContent');

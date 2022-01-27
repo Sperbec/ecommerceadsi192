@@ -87,6 +87,8 @@
             </div>
         </nav>
 
+        @yield('categories')
+
         <main class="py-4">
             @yield('content')
         </main>

@@ -5467,20 +5467,54 @@ function CollapsedContent() {
           className: "bg-dark p-4",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h4", {
             className: "text-white",
-            children: "Collapsed content"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
-            className: "text-muted",
-            children: "Toggleable via the navbar brand."
+            children: "Categorias"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("ul", {
+            className: "list-group list-group-horizontal",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+              className: "list-group-item text-white bg-dark",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
+                href: "/productos",
+                className: "text-white",
+                children: "Productos"
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+              className: "list-group-item text-white bg-dark",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
+                href: "/productos",
+                className: "text-white",
+                children: "Productos"
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+              className: "list-group-item text-white bg-dark",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
+                href: "/productos",
+                className: "text-white",
+                children: "Productos"
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+              className: "list-group-item text-white bg-dark",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
+                href: "/productos",
+                className: "text-white",
+                children: "Productos"
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("li", {
+              className: "list-group-item text-white bg-dark",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
+                href: "/productos",
+                className: "text-white",
+                children: "Productos"
+              })
+            })]
           })]
         })
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("nav", {
         className: "navbar navbar-dark bg-dark",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("button", {
           className: "navbar-toggler",
           type: "button",
           "data-bs-toggle": "collapse",
           "data-bs-target": "#navbarToggleExternalContent",
-          href: "#navbarToggleExternalContent",
           "aria-controls": "navbarToggleExternalContent",
           "aria-expanded": "false",
           "aria-label": "Toggle navigation",

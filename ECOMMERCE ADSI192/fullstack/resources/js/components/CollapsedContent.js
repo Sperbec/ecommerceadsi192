@@ -7,16 +7,31 @@ function CollapsedContent() {
             <div className="pos-f-t">
                 <div className="collapse" id="navbarToggleExternalContent">
                     <div className="bg-dark p-4">
-                        <h4 className="text-white">Collapsed content</h4>
-                        <span className="text-muted">Toggleable via the navbar brand.</span>
+                        <h4 className="text-white">Categorias</h4>
+                        <ul className={"list-group list-group-horizontal"}>
+                            <li className={"list-group-item text-white bg-dark"}>
+                                <a href={"/productos"} className={"text-white"}>Productos</a>
+                            </li>
+                            <li className={"list-group-item text-white bg-dark"}>
+                                <a href={"/productos"} className={"text-white"}>Productos</a>
+                            </li>
+                            <li className={"list-group-item text-white bg-dark"}>
+                                <a href={"/productos"} className={"text-white"}>Productos</a>
+                            </li>
+                            <li className={"list-group-item text-white bg-dark"}>
+                                <a href={"/productos"} className={"text-white"}>Productos</a>
+                            </li>
+                            <li className={"list-group-item text-white bg-dark"}>
+                                <a href={"/productos"} className={"text-white"}>Productos</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <nav className="navbar navbar-dark bg-dark">
-                    <a className="navbar-toggler" type="button" data-bs-toggle="collapse"
-                       data-bs-target="#navbarToggleExternalContent" href="#navbarToggleExternalContent"
-                       aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent"
+                            aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
-                    </a>
+                    </button>
                 </nav>
             </div>
         </>

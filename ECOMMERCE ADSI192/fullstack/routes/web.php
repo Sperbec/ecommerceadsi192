@@ -32,4 +32,11 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 // New added Routes
 
-Route::get('/principal', [App\Http\Controllers\RoutingController::class, 'principal'])->name('principal');
+Route::get('/principal', [\App\Http\Controllers\Users\RoutingController::class, 'principal'])->name('principal');
+Route::get('/category', [\App\Http\Controllers\Users\RoutingController::class, 'category'])->name('category');
+
+// Individual Categories
+
+Route::prefix('category')->group(function () {
+    Route::get('cat1', [\App\Http\Controllers\Users\RoutingController::class, 'category'])->name('category.cat1');
+});

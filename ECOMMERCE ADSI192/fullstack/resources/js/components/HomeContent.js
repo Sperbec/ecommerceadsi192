@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Slide from "./Slide";
 import BasicSection from "./BasicSection";
-import CollapsedContent from "./CollapsedContent";
 
 function HomeContent(){
     return (

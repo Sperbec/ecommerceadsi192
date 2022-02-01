@@ -26,7 +26,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/principal') }}">
-                    <img src="images/logo.png" width="60px" height="60px" >
+                    <img src="/images/logo.png" width="60px" height="60px" >
                 </a>
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}

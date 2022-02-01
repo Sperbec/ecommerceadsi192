@@ -7,22 +7,24 @@ function CollapsedContent() {
             <div className="pos-f-t">
                 <div className="collapse" id="navbarToggleExternalContent">
                     <div className="bg-dark p-4">
-                        <h4 className="text-white">Categorias</h4>
+                        <a href={"/category"}>
+                            <h4 className="text-white">Categorias</h4>
+                        </a>
                         <ul className={"list-group list-group-horizontal"}>
                             <li className={"list-group-item text-white bg-dark"}>
-                                <a href={"/productos"} className={"text-white"}>Productos</a>
+                                <a href={"/category/cat1"} className={"text-white"}>Categoria1</a>
                             </li>
                             <li className={"list-group-item text-white bg-dark"}>
-                                <a href={"/productos"} className={"text-white"}>Productos</a>
+                                <a href={"/category/cat2"} className={"text-white"}>Categoria2</a>
                             </li>
                             <li className={"list-group-item text-white bg-dark"}>
-                                <a href={"/productos"} className={"text-white"}>Productos</a>
+                                <a href={"/category/cat3"} className={"text-white"}>Categoria3</a>
                             </li>
                             <li className={"list-group-item text-white bg-dark"}>
-                                <a href={"/productos"} className={"text-white"}>Productos</a>
+                                <a href={"/category/cat4"} className={"text-white"}>Categoria4</a>
                             </li>
                             <li className={"list-group-item text-white bg-dark"}>
-                                <a href={"/productos"} className={"text-white"}>Productos</a>
+                                <a href={"/category/cat5"} className={"text-white"}>Categoria5</a>
                             </li>
                         </ul>
                     </div>
